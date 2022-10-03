@@ -1,4 +1,3 @@
-Django
 mediapipe==0.8.11
 morse_audio_decoder==0.1.1
 opencv_python==4.6.0.66
