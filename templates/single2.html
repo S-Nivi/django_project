@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!--
+     - Roxy: Bootstrap template by GettTemplates.com
+     - https://gettemplates.co/roxy
+    -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Morse Code to Text</title>
+    <meta name="description" content="Roxy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{%  static 'vendor/bootstrap/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%  static 'vendor/select2/select2.min.css'%}">
+    <link rel="stylesheet" href="{%  static 'vendor/owlcarousel/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{%  static 'vendor/lightcase/lightcase.css'%}">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{%  static 'css/style.min.css'%}">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<div class="row">
+    <li class="nav-item">
+        <a class="nav-link" href="/">HOME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="option">OPTIONS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="contact2">INPUT</a>
+    </li>
+</div>
+<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(img/bg.jpg)">
+  <div class="container text-center">
+    <h1 class="display-2 mb-4">MORSE CODE TO TEXT</h1>
+  </div>
+</div>		<!-- Contact Form Section -->
+<section id="contact-form" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap" data-aos="fade-up">
+                <h2 class="section-title">Text format of your Morse Code</h2><br>
+                <h3>{{ result }}</h3>
+
+            </div>
+            <!-- End of Section Title -->
+
+        </div>
+
+        </div>
+    </div>
+</section>
+<!-- End of Contact Form Section -->		<!-- Features Section-->
+<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-2">Get to know more about Morse Code!</h2>
+                    <p>Extensions to the code cover languages</p>
+                     <a class="btn btn-outline-primary btn-lg" href="features" role="button">GO AHEAD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section-->		<footer class="mastfoot my-3">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+
+         	</div>
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">&copy;CodeTECH</p>
+         	</div>
+
+            <div class="col-lg-4 col-md-12">
+            	<nav class="nav nav-mastfoot justify-content-center">
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-facebook-f"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-twitter"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-instagram"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-linkedin"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-youtube"></i>
+	                </a>
+	            </nav>
+            </div>
+
+        </div>
+    </div>
+</footer>	</div>
+
+</div>
+	<!-- External JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="{%  static 'vendor/bootstrap/popper.min.js'%}"></script>
+	<script src="{%  static 'vendor/bootstrap/bootstrap.min.js'%}"></script>
+	<script src="{%  static 'vendor/select2/select2.min.js'%}"></script>
+	<script src="{%  static 'vendor/owlcarousel/owl.carousel.min.js'%}"></script>
+	<script src="{%  static 'vendor/stellar/jquery.stellar.js'%}" type="text/javascript" charset="utf-8"></script>
+	<script src="{%  static 'vendor/isotope/isotope.min.js'%}"></script>
+	<script src="{%  static 'vendor/lightcase/lightcase.js'%}"></script>
+	<script src="{%  static 'vendor/waypoints/waypoint.min.js'%}"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<!-- Main JS -->
+	<script src="{%  static 'js/app.min.js'%} "></script>
+	<script src="{%  static '//localhost:35729/livereload.js'%}"></script>
+</body>
+</html>
