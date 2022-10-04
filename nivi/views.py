@@ -129,8 +129,7 @@ def features(request):
 def video(request):
     return render(request,'video.html')
 def record(request):
-    RUN apt-get update
-    RUN apt-get install ffmpeg libsm6 libxext6  -y
+
     import cv2
     import mediapipe as mp
     import time
