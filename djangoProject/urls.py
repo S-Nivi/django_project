@@ -38,8 +38,8 @@ urlpatterns = [
     path('features',views.features,name='features'),
     path('video',views.video,name='video'),
     path('record',views.record,name='record'),
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}),
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT})
+    repath(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}),
+    repath(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT})
 
 ]
 urlpatterns=urlpatters+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
