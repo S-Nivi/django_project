@@ -1,0 +1,3 @@
+
+RUN apt-get update && apt-get install -y opencv-python-headless
+RUN pip install opencv-python-headless
