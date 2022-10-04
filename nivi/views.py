@@ -89,6 +89,7 @@ def audio(request):
 
     a = value
     res= convert(a.upper())
+    sudo apt-get install libasound2:i386
 
 
     from pygame import mixer
