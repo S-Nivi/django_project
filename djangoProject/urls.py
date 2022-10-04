@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 from nivi import views
 
 from django.views.static import serve
-from django.conf.urls import url
+from django.urls import re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
