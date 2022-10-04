@@ -19,7 +19,8 @@ matplotlib==3.6.0
 mediapipe==0.8.11
 morse-audio-decoder==0.1.1
 numpy==1.23.3
-
+mixer==7.2.2
+cv2==4.6.0
 opencv-contrib-python==4.6.0.66
 opencv-python==4.6.0.66
 packaging==21.3
